@@ -25,6 +25,7 @@ for _name in _SIBLING_REPOS:
         sys.path.insert(0, str(_p))
 
 
+
 def main(argv: Optional[list[str]] = None) -> int:
     from 多场景平衡.pipeline import run
 
